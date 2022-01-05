@@ -1,0 +1,160 @@
+/* big tables:- FROM 1024 to 1200px */
+@media only screen and (max-width: 1200px) {
+  #main-header .hero-content,
+  #main-header nav {
+    padding: 0 2%;
+    width: 100%;
+  }
+  .container {
+    padding: 0 2%;
+  }
+}
+
+/* SMALL tables:- FROM 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .main-nav li {
+    margin-left: 20px;
+  }
+  .description {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .steps-box,
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .app-screen {
+    width: 50%;
+  }
+  .icon-small {
+    margin-right: 5px;
+    width: 15px;
+  }
+  .city-feature {
+    font-size: 0.9rem;
+  }
+  #plans .plan-box {
+    margin-left: 0;
+    width: 100%;
+  }
+  #plans .plan-box .plan-price {
+    font-size: 1rem;
+  }
+  #main-footer .footer-nav li {
+    font-size: 0.7rem;
+  }
+}
+
+/* SMALL DEVICE:- FROM 481 to 767px */
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .container {
+    padding: 0 4%;
+  }
+  .col {
+    margin: 0 0 4% 0;
+    width: 100%;
+  }
+  #main-header .main-nav {
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+    height: 30vh;
+    display: none;
+  }
+  #main-header .main-nav li {
+    display: block;
+  }
+  #main-header .main-nav li a:link,
+  #main-header .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+
+  .sticky-header .main-nav {
+    margin-top: 10px;
+  }
+
+  .sticky-header .main-nav li a:link,
+  .sticky-header .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  .sticky-header .mobile-nav-icon {
+    margin-top: 10px;
+  }
+  .sticky-header .mobile-nav-icon i {
+    color: #555;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  #features .description {
+    margin: 0;
+    width: 100%;
+  }
+  .works-step div {
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+  }
+  .works-step {
+    margin-bottom: 20px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 20px;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+  #main-footer .col,
+  #main-footer .col ul {
+    float: none;
+    text-align: center;
+  }
+  #main-footer p {
+    margin-top: 1rem;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+}
+
+/* SMALL DEVICE:- FROM 0 to 480px */
+@media only screen and (max-width: 480px) {
+  #contact .contact-form .form-group {
+    flex-direction: column;
+  }
+  .form-group div:first-child {
+    align-self: flex-start;
+    margin-bottom: 10px;
+  }
+  #contact .contact-form .form-group:last-child .lbl-wrapper {
+    display: none;
+  }
+}
